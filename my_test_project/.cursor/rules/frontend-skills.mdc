@@ -1,0 +1,19 @@
+---
+description: Auto-run frontend skills in this repo for frontend work
+alwaysApply: true
+---
+
+# Frontend skills (always on)
+
+For any frontend feature, screen, UI change, or bug fix in this repo:
+
+1. Read and follow `.agents/skills/frontend-skills/SKILL.md` and `.agents/rules/workflow-gates.md`. Do not invent a parallel workflow.
+2. A feature or any new behavior, however small, follows `.agents/skills/feature-implementation/SKILL.md`. A bug follows `.agents/skills/bug-fix/SKILL.md`.
+3. Before building, show the scope (or the bug's location and root cause) and the test plan in plain language, with no code. End the turn and wait for an explicit yes.
+4. Before coding, read `.agents/rules/ask-only-gaps.md`, `.agents/rules/stay-in-scope.md`, and `.agents/rules/how-to-write.md`.
+5. Open only the skills under `.agents/skills/` that the change needs. Read each `SKILL.md` fully before acting.
+6. For any UI or behavior change, run `.agents/skills/testing` and `.agents/skills/browser-validation` before calling the work done.
+
+## Trivial skip
+
+Skip the skill sequence only for trivial non-product asks (for example a git commit message, or a one-line typo with no UI or behavior change). Still follow `.agents/rules/how-to-write.md`.

@@ -1,0 +1,11 @@
+node_modules
+dist
+.git
+.gitignore
+*.log
+docs
+.vscode
+.idea
+.agents
+.claude
+.cursor
